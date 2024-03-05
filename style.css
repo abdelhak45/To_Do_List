@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+#parent {
+    width: fit-content;
+    margin: 50px auto;
+    border: rgb(61, 163, 163) solid 2px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1 {
+    color: rgb(61, 163, 163);
+    font-weight: bold;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+#taskList li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px 1px rgb(128, 128, 128) inset;
+    border-radius: 5px;
+}
+
+li button {
+    background-color: #c22a1fcb;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    background-color: #cccccc00;
+}
+
+button#addTask {
+    background-color: rgb(61, 163, 163);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#select {
+    padding: 7px;
+    margin: 30px;
+    background-color: rgba(12, 12, 12, 0.007);
+    font-size: 17px;
+    color: rgb(61, 163, 163);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(61, 163, 163);
+
+}
+
+#darkMode {
+    padding: 6px 0px;
+    margin: 30px;
+    font-size: 17px;
+    color: rgb(61, 163, 163);
+    border-radius: 10px;
+    border: 2px solid rgb(61, 163, 163);
+    background-color: #33333300;
+    width: 100px;
+}
